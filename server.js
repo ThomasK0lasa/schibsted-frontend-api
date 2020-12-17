@@ -48,5 +48,5 @@ http.createServer(requestHandler).listen(PORT, err => {
         console.log('something bad happened', err);
         return;
     }
-    console.log(`server is listening`);
+    console.log(`server is listening on port: ${PORT}`);
 });
